@@ -73,21 +73,3 @@ unifold-app/
 └── vite.config.js       # Vite build configuration
 ```
 
----
-
-## Backend Integration
-
-The frontend exposes hooks and handlers ready for REST API connectivity:
-
-- `POST /api/auth/login` - Student sign-in
-- `GET /api/courses` - Fetch courses, study notes, and PYQs
-- `GET /api/events` - Fetch campus event schedules
-- `POST /api/events/:id/rsvp` - Submit event attendance RSVP
-- `GET /api/timetable` - Retrieve student timetable data
-
----
-
-## Authors
-
-- **Frontend**: Suhani Nagpal ([@suhani-nagpal](https://github.com/suhani-nagpal))
-- **Backend**: Collaborator
